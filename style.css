@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    display: grid;
+    grid-template-areas: 'nav nav nav nav'
+                         'header header header header'
+                         'banner banner banner banner'
+                         'section section section section'
+                         'jumbotron jumbotron jumbotron jumbotron'
+                         'redes redes redes redes'
+                         'footer footer footer footer';
+
+    grid-template-rows: 2vh 70vh;
+
+    /* a coluna é vw
+    a row pé vh */
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgb(231, 231, 231);
+}
+
+header{
+    grid-area: header;
+}
+
+section.details{
+    grid-area: section;
+}
+
+section.informations{
+    grid-area: jumbotron;
+}
+
+section.about{
+    grid-area: about
+}
+
+
+footer{
+    grid-area: footer;
+}
