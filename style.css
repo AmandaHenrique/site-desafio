@@ -1,3 +1,5 @@
+/* Amanda Henrique */
+
 body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
@@ -60,7 +62,7 @@ input[type="text"]{
     width: 260px;
     height: 45px;
     border-radius: 10px 0px 0px 10px;
-    border: 1px solid rgb(201, 201, 201);
+    border: 1px solid rgb(207, 207, 207);
     float: left;
     padding-left: 10px;
     font-size: 12pt;
@@ -109,3 +111,26 @@ span{
 #people img{
     width: 40px;
 }
+
+#social-media{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.circle a img{
+    width: 18px;
+}
+
+.circle{
+    background-color: rgb(173, 173, 173);
+    border-radius: 100px;
+    padding: 5px 7px 5px 7px;
+}
+
+.circle:hover{
+    background-color: #2ecc71;
+}
+
+/* Amanda Henrique */
