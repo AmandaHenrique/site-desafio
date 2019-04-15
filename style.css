@@ -59,23 +59,39 @@ h1{
     margin: 0;
 }
 
-header{
-    margin: 0px;
-    display: grid;
-    grid-template-areas: 'text image';
-    grid-template-rows: 78vh;
-    grid-template-columns: 30vw 30vw; 
+h2{
+    font-size: 15pt;
+}
 
+header{
+    height: 78vh;
     background-image: url("projetoNotify-master/img/banner.png");
     border-top: 10px solid #2ecc71;
     background-repeat: no-repeat;
     background-size: 100vw;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
+header div:first-child{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
 #informations{
     margin-top: 45px;
     display: flex;
     justify-content: space-around;
+}
+
+#informations-banner{
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .informations{
@@ -137,6 +153,26 @@ p{
     width: 40px;
 }
 
+.plataforms{
+    display: flex;
+    align-items: space-around;
+
+}
+
+.plataforms .circle img{
+    width: 20px;
+    padding: 2px 3px 2px 3px;
+}
+
+.plataforms .circle{
+    background-color: rgba(0, 0, 0,0.5);
+    
+}
+
+.plataforms .circle:hover{
+    background-color: #2ecc71;
+}
+
 span{
     font-weight: bolder;
     color: black;
@@ -151,4 +187,3 @@ span{
 }
 
 /* Amanda Henrique */
-
